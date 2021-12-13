@@ -1,0 +1,31 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "cloudpickle >=1.1.1",
+    "fsspec >=0.6.0",
+    "packaging >=20.0",
+    "partd >=0.3.10",
+    "python >=3.7",
+    "pyyaml",
+    "toolz >=0.8.2"
+  ],
+  "features": "",
+  "fn": "dask-core-2021.8.1-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "9de47b123f324081b0b17289be4bdf59",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "6977f0fc4e8428e5396178501f9bbbc7",
+  "name": "dask-core",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "56fbbe97d223d20641730564e8b99e1c762431a2f6eac1d841cb3fb739e717ae",
+  "size": 732264,
+  "subdir": "noarch",
+  "timestamp": 1630523626514,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/dask-core-2021.8.1-pyhd3eb1b0_0.conda",
+  "version": "2021.8.1"
+}

@@ -1,0 +1,68 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /Users/ktietz/demo/src/aggregate/contextlib2-feedstock/recipe, last modified Sat Aug  7 09:28:47 2021
+# ------------------------------------------------
+
+package:
+  name: contextlib2
+  version: 0.6.0.post1
+source:
+  fn: contextlib2-0.6.0.post1.tar.gz
+  sha256: 01f490098c18b19d2bd5bb5dc445b2054d2fa97f09a4280ba2c5f3c394c8162e
+  url: https://pypi.io/packages/source/c/contextlib2/contextlib2-0.6.0.post1.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /Users/ktietz/demo/mc3/conda-bld/contextlib2_1630668244042/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+    -m pip install . --no-deps -vv
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - ca-certificates 2021.7.5 hca03da5_1
+    - certifi 2021.5.30 py39hca03da5_1
+    - expat 2.4.1 hc377ac9_2
+    - libcxx 12.0.0 hf6beb65_1
+    - libffi 3.3 hc377ac9_2
+    - libiconv 1.16 h1230e6a_0
+    - ncurses 6.2 hc4ed4cf_0
+    - openssl 1.1.1j h1230e6a_0
+    - pip 21.2.4 py39hca03da5_0
+    - python 3.9.6 hc70090a_5
+    - readline 8.1 h1a28f6b_0
+    - setuptools 52.0.0 py39hca03da5_1
+    - sqlite 3.36.0 h1058600_0
+    - tk 8.6.10 hb8d0fd4_0
+    - tzdata 2021a h5d7bf9c_0
+    - wheel 0.37.0 pyhd3eb1b0_1
+    - xz 5.2.5 h1a28f6b_0
+    - zlib 1.2.11 hca03da5_3
+  run:
+    - python
+test:
+  imports:
+    - contextlib2
+about:
+  description: 'Contextlib2 provides backports of features in the latest version of
+    the
+
+    standard library''s contextlib module to earlier Python versions. It also
+
+    serves as a real world proving ground for potential future enhancements
+
+    to that module.
+
+    '
+  dev_url: https://github.com/jazzband/contextlib2
+  doc_source_url: https://github.com/jazzband/contextlib2/blob/master/docs/index.rst
+  doc_url: http://contextlib2.readthedocs.org
+  home: http://contextlib2.readthedocs.org
+  license: PSF 2
+  license_family: PSF
+  license_file: LICENSE.txt
+  summary: Backports and enhancements for the contextlib module
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - dopplershift
+    - jakirkham

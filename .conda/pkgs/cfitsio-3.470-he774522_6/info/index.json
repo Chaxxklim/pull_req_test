@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "he774522_6",
+  "build_number": 6,
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "fitsio",
+  "name": "cfitsio",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1601308857031,
+  "version": "3.470"
+}

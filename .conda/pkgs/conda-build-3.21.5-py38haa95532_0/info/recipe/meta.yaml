@@ -1,0 +1,114 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# C:\ci\containers\000003p5ejb\tmp\build\80754af9\rsync-recipes\conda-build-3.21.5-python_3.8-on-winbuilder, last modified Mon Aug 30 13:18:06 2021
+# ------------------------------------------------
+
+package:
+  name: conda-build
+  version: 3.21.5
+source:
+  sha256: 602b1ccd9b7d0bf0f386b7245a42b761bbda468292d593185ea7e7ca92d43aea
+  url: https://github.com/conda/conda-build/releases/download/3.21.5/conda-build-3.21.5.tar.gz
+build:
+  entry_points:
+    - conda-build = conda_build.cli.main_build:main
+    - conda-convert = conda_build.cli.main_convert:main
+    - conda-debug = conda_build.cli.main_debug:main
+    - conda-develop = conda_build.cli.main_develop:main
+    - conda-index = conda_build.cli.main_index:main
+    - conda-inspect = conda_build.cli.main_inspect:main
+    - conda-metapackage = conda_build.cli.main_metapackage:main
+    - conda-render = conda_build.cli.main_render:main
+    - conda-skeleton = conda_build.cli.main_skeleton:main
+  number: '0'
+  string: py38haa95532_0
+requirements:
+  host:
+    - ca-certificates 2021.7.5 haa95532_1
+    - certifi 2021.5.30 py38haa95532_0
+    - conda-package-handling 1.7.3 py38h8cc25b3_1
+    - openssl 1.1.1k h2bbff1b_0
+    - pip 21.2.2 py38haa95532_0
+    - python 3.8.11 h6244533_1
+    - setuptools 52.0.0 py38haa95532_0
+    - six 1.16.0 pyhd3eb1b0_0
+    - sqlite 3.36.0 h2bbff1b_0
+    - tqdm 4.62.1 pyhd3eb1b0_1
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.37.0 pyhd3eb1b0_0
+    - wincertstore 0.2 py38_0
+  run:
+    - beautifulsoup4
+    - chardet
+    - conda >=4.5
+    - conda-package-handling >=1.3
+    - filelock
+    - glob2 >=0.6
+    - jinja2
+    - pkginfo
+    - psutil
+    - py-lief
+    - python >=3.8,<3.9.0a0
+    - python-libarchive-c
+    - pytz
+    - pyyaml
+    - requests
+    - setuptools
+    - six
+    - tqdm
+  run_constrained:
+    - conda-verify  >=3.1.0
+test:
+  commands:
+    - where conda-build
+    - conda-build -h
+    - where conda-convert
+    - conda-convert -h
+    - where conda-develop
+    - where conda-debug
+    - conda-develop -h
+    - where conda-index
+    - conda-index -h
+    - where conda-inspect
+    - conda-inspect -h
+    - where conda-metapackage
+    - conda-metapackage -h
+    - where conda-render
+    - conda-render -h
+    - where conda-skeleton
+    - conda-skeleton -h
+    - python test_bdist_conda_setup.py bdist_conda --help
+  files:
+    - test_bdist_conda_setup.py
+  imports:
+    - conda_build
+about:
+  description: 'Conda-build contains commands and tools to allow you to build your
+    own
+
+    packages for conda.
+
+    '
+  dev_url: https://github.com/conda/conda-build
+  doc_url: http://conda.pydata.org/docs/
+  home: https://github.com/conda/conda-build
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: tools for building conda packages
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - CJ-Wright
+    - jakirkham
+    - jjhelmus
+    - mingwandroid
+    - msarahan
+    - mwcraig
+    - ocefpaf
+    - patricksnape
+    - pelson
+    - scopatz
+    - stuertz

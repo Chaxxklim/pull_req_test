@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "importlib-metadata",
+    "python >=3.6"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "click",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1621604887453,
+  "version": "8.0.1"
+}

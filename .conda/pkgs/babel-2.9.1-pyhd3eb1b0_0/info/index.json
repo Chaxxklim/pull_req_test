@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6",
+    "pytz >=2015.7"
+  ],
+  "license": "BSD 3-clause",
+  "name": "babel",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1620871461455,
+  "version": "2.9.1"
+}

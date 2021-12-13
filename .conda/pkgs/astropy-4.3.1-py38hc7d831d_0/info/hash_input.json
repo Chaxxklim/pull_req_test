@@ -1,0 +1,6 @@
+{
+  "target_platform": "win-64",
+  "channel_targets": "defaults",
+  "numpy": "1.19",
+  "c_compiler": "vs2017"
+}

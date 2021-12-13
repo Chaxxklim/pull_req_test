@@ -1,0 +1,25 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "pytz >=2015.7"
+  ],
+  "features": "",
+  "fn": "babel-2.9.1-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "323c7a73c8888bd6d16bf5cf3a3acac1",
+  "license": "BSD 3-clause",
+  "md5": "61575e8b70e18ebc54e65da5e441b861",
+  "name": "babel",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "c467e0ec03fb3f974cb903778b5806f4bced21534233c2e6b80bf879dc664460",
+  "size": 5726771,
+  "subdir": "noarch",
+  "timestamp": 1620871461455,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/babel-2.9.1-pyhd3eb1b0_0.conda",
+  "version": "2.9.1"
+}

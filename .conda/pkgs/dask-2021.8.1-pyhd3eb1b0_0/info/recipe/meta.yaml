@@ -1,0 +1,87 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/dask-2021.8.1-on-linux_64, last modified Fri Sep  3 02:25:17 2021
+# ------------------------------------------------
+
+package:
+  name: dask
+  version: 2021.8.1
+source:
+  fn: dask-2021.8.1.tar.gz
+  sha256: 89efe49dfef162387a89c8b255b30ef495856405786ef94884df985fe1a344bd
+  url: https://pypi.io/packages/source/d/dask/dask-2021.8.1.tar.gz
+build:
+  noarch: python
+  number: '0'
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2021.7.5 h06a4308_1
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1l h7f8727e_0
+    - python 3.9.6 h12debd9_1
+    - readline 8.1 h27cfd23_0
+    - sqlite 3.36.0 hc218d9a_0
+    - tk 8.6.10 hbc83047_0
+    - tzdata 2021a h5d7bf9c_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - bokeh >=1.0.0,!=2.0.0
+    - cytoolz >=0.8.2
+    - dask-core 2021.8.1.*
+    - distributed 2021.8.1.*
+    - jinja2
+    - numpy >=1.18
+    - pandas >=1.0
+    - python >=3.7
+  run_constrained:
+    - openssl !=1.1.1e
+test:
+  commands:
+    - pip check
+  imports:
+    - dask
+    - dask.array
+    - dask.bag
+    - dask.bytes
+    - dask.dataframe
+    - dask.dataframe.io
+    - dask.dataframe.tseries
+    - dask.delayed
+    - dask.diagnostics
+    - dask.distributed
+    - distributed
+  requires:
+    - pip
+about:
+  description: 'Dask is a flexible parallel computing library for analytics.
+
+    '
+  dev_url: https://github.com/dask/dask
+  doc_url: https://dask.org/
+  home: https://dask.org/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: Parallel PyData with Task Scheduling
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - alimanfoo
+    - jakirkham
+    - jcrist
+    - jrbourbeau
+    - koverholt
+    - martindurant
+    - mrocklin
+    - pitrou
+    - tomaugspurger

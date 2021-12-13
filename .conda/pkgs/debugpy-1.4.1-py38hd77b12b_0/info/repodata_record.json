@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py38hd77b12b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "debugpy-1.4.1-py38hd77b12b_0.conda",
+  "legacy_bz2_md5": "1a095743e0c0ad6b883ac2d56fb123ca",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "2c26262bd7d3a61e9158c5a0d6153c30",
+  "name": "debugpy",
+  "platform": "win32",
+  "sha256": "887e311a2c0fc6b213b822c68aee166b3b60e8581d6021d95daea4e5671d0383",
+  "size": 2740775,
+  "subdir": "win-64",
+  "timestamp": 1629222960967,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/debugpy-1.4.1-py38hd77b12b_0.conda",
+  "version": "1.4.1"
+}

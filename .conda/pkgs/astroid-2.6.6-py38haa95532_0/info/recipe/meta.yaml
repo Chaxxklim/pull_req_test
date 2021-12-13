@@ -1,0 +1,77 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# C:\ci\containers\0000177j841\tmp\build\80754af9\combined_recipe, last modified Wed Aug  4 02:45:15 2021
+# ------------------------------------------------
+
+package:
+  name: astroid
+  version: 2.6.6
+source:
+  sha256: 3975a0bd5373bdce166e60c851cfcbaf21ee96de80ec518c1f4cb3e94c3fb334
+  url: https://pypi.io/packages/source/a/astroid/astroid-2.6.6.tar.gz
+build:
+  number: '0'
+  script: C:\\ci\\astroid_1628063293445\\_h_env\\python.exe -m pip install . --no-deps
+    -vv
+  string: py38haa95532_0
+requirements:
+  host:
+    - atomicwrites 1.4.0 py_0
+    - attrs 21.2.0 pyhd3eb1b0_0
+    - ca-certificates 2021.7.5 haa95532_1
+    - certifi 2021.5.30 py38haa95532_0
+    - colorama 0.4.4 pyhd3eb1b0_0
+    - iniconfig 1.1.1 pyhd3eb1b0_0
+    - more-itertools 8.8.0 pyhd3eb1b0_0
+    - openssl 1.1.1k h2bbff1b_0
+    - packaging 21.0 pyhd3eb1b0_0
+    - pip 21.2.2 py38haa95532_0
+    - pluggy 0.13.1 py38haa95532_0
+    - py 1.10.0 pyhd3eb1b0_0
+    - pyparsing 2.4.7 pyhd3eb1b0_0
+    - pytest 6.2.4 py38haa95532_2
+    - pytest-runner 5.3.1 pyhd3eb1b0_0
+    - python 3.8.11 h6244533_0_cpython
+    - setuptools 52.0.0 py38haa95532_0
+    - sqlite 3.36.0 h2bbff1b_0
+    - toml 0.10.2 pyhd3eb1b0_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - wincertstore 0.2 py38_0
+  run:
+    - lazy-object-proxy >=1.4.0
+    - python >=3.8,<3.9.0a0
+    - setuptools >=20.0
+    - wrapt >=1.11,<1.13
+test:
+  commands:
+    - python -m pip check
+  imports:
+    - astroid
+    - astroid.modutils
+  requires:
+    - pip
+about:
+  description: 'Astroid provide a common base representation of python source code
+    for
+
+    projects such as pychecker, pyreverse, pylint.
+
+    '
+  dev_url: https://github.com/PyCQA/astroid
+  doc_source_url: https://github.com/PyCQA/astroid/blob/master/doc/index.rst
+  doc_url: http://astroid.readthedocs.io/en/latest/?badge=latest
+  home: https://www.astroid.org/
+  license: LGPL-2.1-only
+  license_family: LGPL
+  license_file: LICENSE
+  summary: A abstract syntax tree for Python with inference support.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ericdill
+    - jakirkham
+    - jjhelmus
+    - ocefpaf

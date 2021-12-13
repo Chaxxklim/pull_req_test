@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "openssl !=1.1.1e"
+  ],
+  "depends": [
+    "click >=6.6",
+    "cloudpickle >=1.5.0",
+    "colorama",
+    "cytoolz >=0.8.2",
+    "dask-core 2021.8.1.*",
+    "jinja2",
+    "msgpack-python >=0.6.0",
+    "psutil >=5.0",
+    "python >=3.8,<3.9.0a0",
+    "pyyaml",
+    "setuptools",
+    "sortedcontainers !=2.0.0,!=2.0.1",
+    "tblib >=1.6.0",
+    "toolz >=0.8.2",
+    "tornado >=6.0.3",
+    "zict >=0.1.3"
+  ],
+  "features": "",
+  "fn": "distributed-2021.8.1-py38haa95532_0.conda",
+  "legacy_bz2_md5": "fbf32be97ad14034e66ae8ffd43ec3bf",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "22be8365fdfc00b0a78a513a81ed670c",
+  "name": "distributed",
+  "platform": "win32",
+  "sha256": "2b82968d08adc9230e2baa8bd61f0c125b2296bedff1361caf2f3fd6d63babd5",
+  "size": 1016969,
+  "subdir": "win-64",
+  "timestamp": 1630629484278,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/distributed-2021.8.1-py38haa95532_0.conda",
+  "version": "2021.8.1"
+}

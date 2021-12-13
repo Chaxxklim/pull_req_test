@@ -1,0 +1,74 @@
+# This file created by conda-build 3.21.5
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/cloudpickle-2.0.0-on-linux_64, last modified Wed Sep 22 22:29:45 2021
+# ------------------------------------------------
+
+package:
+  name: cloudpickle
+  version: 2.0.0
+source:
+  fn: cloudpickle-2.0.0.tar.gz
+  sha256: 5cd02f3b417a783ba84a4ec3e290ff7929009fe51f6405423cfccfadd43ba4a4
+  url: https://pypi.io/packages/source/c/cloudpickle/cloudpickle-2.0.0.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /tmp/build/80754af9/cloudpickle_1632508026186/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . --no-deps -vv
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2021.7.5 h06a4308_1
+    - certifi 2021.5.30 py39h06a4308_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1l h7f8727e_0
+    - pip 21.2.4 py37h06a4308_0
+    - python 3.9.7 h12debd9_1
+    - readline 8.1 h27cfd23_0
+    - setuptools 58.0.4 py39h06a4308_0
+    - sqlite 3.36.0 hc218d9a_0
+    - tk 8.6.10 hbc83047_0
+    - tzdata 2021a h5d7bf9c_0
+    - wheel 0.37.0 pyhd3eb1b0_1
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - python >=3.6
+test:
+  commands:
+    - pip check
+  imports:
+    - cloudpickle
+  requires:
+    - pip
+about:
+  description: 'cloudpickle is extended pickling support for Python objects.
+
+    cloudpickle makes it possible to serialize Python constructs not
+
+    supported by the default pickle module from the Python standard library.
+
+    '
+  dev_url: https://github.com/cloudpipe/cloudpickle
+  doc_source_url: https://github.com/cloudpipe/cloudpickle/blob/master/README.md
+  doc_url: https://pypi.python.org/pypi/cloudpickle/2.0.0
+  home: https://github.com/cloudpipe/cloudpickle
+  license: BSD-3-Clause
+  license_file: LICENSE
+  summary: Extended pickling support for Python objects
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jakirkham
+    - mrocklin
+    - nehaljwani
+    - ogrisel
+    - rgbkrk

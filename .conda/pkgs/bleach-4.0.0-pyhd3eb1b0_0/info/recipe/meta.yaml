@@ -1,0 +1,73 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/combined_recipe, last modified Wed Aug  4 20:56:31 2021
+# ------------------------------------------------
+
+package:
+  name: bleach
+  version: 4.0.0
+source:
+  sha256: ffa9221c6ac29399cc50fcc33473366edd0cf8d5e2cbbbb63296dc327fb67cc8
+  url: https://pypi.io/packages/source/b/bleach/bleach-4.0.0.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /tmp/build/80754af9/bleach_1628110601003/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+    -m pip install . -vvv
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2021.7.5 h06a4308_1
+    - certifi 2021.5.30 py39h06a4308_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1k h27cfd23_0
+    - pip 21.2.2 py39h06a4308_0
+    - python 3.9.6 h12debd9_0
+    - readline 8.1 h27cfd23_0
+    - setuptools 52.0.0 py39h06a4308_0
+    - sqlite 3.36.0 hc218d9a_0
+    - tk 8.6.10 hbc83047_0
+    - tzdata 2021a h52ac0ba_0
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - packaging
+    - python >=3.6
+    - six >=1.9.0
+    - webencodings
+test:
+  commands:
+    - pip check
+  imports:
+    - bleach
+  requires:
+    - pip
+about:
+  description: 'Bleach is an allowed-list-based HTML sanitizing library that escapes
+    or
+
+    strips markup and attributes.
+
+    '
+  dev_url: https://github.com/mozilla/bleach
+  doc_source_url: https://github.com/mozilla/bleach/blob/master/docs/index.rst
+  doc_url: https://bleach.readthedocs.io/
+  home: https://github.com/mozilla/bleach
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Easy, whitelist-based HTML-sanitizing tool
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - minrk
+    - ocefpaf

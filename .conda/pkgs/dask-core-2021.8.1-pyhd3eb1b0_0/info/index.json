@@ -1,0 +1,22 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "cloudpickle >=1.1.1",
+    "fsspec >=0.6.0",
+    "packaging >=20.0",
+    "partd >=0.3.10",
+    "python >=3.7",
+    "pyyaml",
+    "toolz >=0.8.2"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "dask-core",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1630523626514,
+  "version": "2021.8.1"
+}

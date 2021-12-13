@@ -1,0 +1,25 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "contextlib2-0.6.0.post1-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "89de104ef4d872ba5c8160422aefea5b",
+  "license": "PSF 2",
+  "license_family": "PSF",
+  "md5": "c5497033342b52a065b858efccec36ea",
+  "name": "contextlib2",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "90c7c25ee9061d612b9d2a7229983eb9dc65c4f98bf72e28c90c7803853be37b",
+  "size": 13588,
+  "subdir": "noarch",
+  "timestamp": 1630668268624,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/contextlib2-0.6.0.post1-pyhd3eb1b0_0.conda",
+  "version": "0.6.0.post1"
+}

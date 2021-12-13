@@ -1,0 +1,4 @@
+{
+  "channel_targets": "defaults",
+  "build_script": "noop"
+}

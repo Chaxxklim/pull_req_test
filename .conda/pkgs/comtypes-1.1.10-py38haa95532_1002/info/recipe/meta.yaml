@@ -1,0 +1,58 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# C:\ci\containers\00001v9iujm\tmp\build\80754af9\combined_recipe, last modified Sun May 23 22:50:13 2021
+# ------------------------------------------------
+
+package:
+  name: comtypes
+  version: 1.1.10
+source:
+  fn: comtypes-1.1.10.tar.gz
+  sha256: ccfee592e745ca05d5b19739948039eb2a5fb743868212ea740ccb66d63fad2e
+  url: https://github.com/enthought/comtypes/archive/1.1.10.tar.gz
+build:
+  number: '1002'
+  script: python setup.py install --single-version-externally-managed --record record.txt
+  string: py38haa95532_1002
+requirements:
+  host:
+    - ca-certificates 2021.4.13 haa95532_1
+    - certifi 2020.12.5 py38haa95532_0
+    - openssl 1.1.1k h2bbff1b_0
+    - python 3.8.10 hdbf39b2_7
+    - setuptools 52.0.0 py38haa95532_0
+    - sqlite 3.35.4 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wincertstore 0.2 py38_0
+  run:
+    - python >=3.8,<3.9.0a0
+test:
+  imports:
+    - comtypes
+about:
+  description: 'comtypes is a pure Python COM package based on the ctypes ffi foreign
+
+    function library.The comtypes package makes it easy to access and implement
+
+    both custom and dispatch based COM interfaces.While the pywin32 package
+
+    contains superior client side support for dispatch based COM interfaces,it is
+
+    not possible to access custom COM interfaces unless they are wrapped in
+
+    C++-code.
+
+    '
+  dev_url: https://github.com/enthought/comtypes/
+  doc_source_url: https://github.com/enthought/comtypes/blob/master/docs/source/index.rst
+  doc_url: http://pythonhosted.org/comtypes/
+  home: http://starship.python.net/crew/theller/comtypes/
+  license: MIT
+  license_file: LICENSE.txt
+  summary: pure Python COM package
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - nehaljwani

@@ -1,0 +1,28 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "python >=3.6",
+    "six >=1.9.0",
+    "webencodings"
+  ],
+  "features": "",
+  "fn": "bleach-4.0.0-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "98e3b72a44d3a8334fba0626c00e1e5b",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "b815b0a429eb4f7f1d524ed07ccc2a5c",
+  "name": "bleach",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "bb5f27e43d68ecc92dede962f70347a5832dc5f48a2e9f1f3926b661848c8305",
+  "size": 115369,
+  "subdir": "noarch",
+  "timestamp": 1628110637057,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/bleach-4.0.0-pyhd3eb1b0_0.conda",
+  "version": "4.0.0"
+}

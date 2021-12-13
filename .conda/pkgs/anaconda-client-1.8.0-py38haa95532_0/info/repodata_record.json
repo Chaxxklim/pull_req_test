@@ -1,0 +1,33 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "clyent >=1.2.0",
+    "nbformat >=4.4.0",
+    "python >=3.8,<3.9.0a0",
+    "python-dateutil >=2.6.1",
+    "pytz",
+    "pyyaml >=3.12",
+    "requests >=2.9.1",
+    "setuptools",
+    "six"
+  ],
+  "features": "",
+  "fn": "anaconda-client-1.8.0-py38haa95532_0.conda",
+  "legacy_bz2_md5": "5e51d50322d7c627ec29f5896dd74d24",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "4e8f804e980dc5c4bff38f273f0f7a41",
+  "name": "anaconda-client",
+  "platform": "win32",
+  "sha256": "fb4ef40a6a26efc113ec0b3b6e7d687e54b9126d45f4ec047afffd1f33213290",
+  "size": 173568,
+  "subdir": "win-64",
+  "timestamp": 1624480343008,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/anaconda-client-1.8.0-py38haa95532_0.conda",
+  "version": "1.8.0"
+}

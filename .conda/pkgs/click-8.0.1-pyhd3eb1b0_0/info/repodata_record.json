@@ -1,0 +1,26 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "importlib-metadata",
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "click-8.0.1-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "07622e9088a0c272703e53bced608785",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "b9107c94b10ed3429aee85a2d77629c8",
+  "name": "click",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "a9ec26f23e0fb023e9528becff7a4d7655b151d73fbfbce205e89798c15df552",
+  "size": 81094,
+  "subdir": "noarch",
+  "timestamp": 1621604887453,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/click-8.0.1-pyhd3eb1b0_0.conda",
+  "version": "8.0.1"
+}

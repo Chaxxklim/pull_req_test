@@ -1,0 +1,110 @@
+00:00:00.005193 main     VirtualBox COM Server 6.1.26 r145957 win.amd64 (Jul 28 2021 17:15:09) release log
+00:00:00.005195 main     Log opened 2021-10-18T03:07:10.721930800Z
+00:00:00.005195 main     Build Type: release
+00:00:00.005226 main     OS Product: Windows 10
+00:00:00.005227 main     OS Release: 10.0.19041
+00:00:00.005228 main     OS Service Pack: 
+00:00:00.047389 main     DMI Product Name: HP Pavilion Laptop 15-cs1xxx
+00:00:00.062173 main     DMI Product Version: Type1ProductConfigId
+00:00:00.062262 main     Firmware type: UEFI
+00:00:00.063748 main     Secure Boot: Disabled
+00:00:00.063934 main     Host RAM: 8079MB (7.8GB) total, 1293MB available
+00:00:00.064018 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.064021 main     Process ID: 13880
+00:00:00.064022 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.164675          VirtualBox: object creation starts
+00:00:00.165175          Home directory: 'C:\Users\PC\.VirtualBox'
+00:00:00.165515          Installed Drivers:
+00:00:00.178802            C:\Windows\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.26.45957)
+00:00:00.179444            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.26.45957)
+00:00:00.179942            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.26.45957)
+00:00:00.180375            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.26.45957)
+00:00:00.187907          usbLibGetDevices: Starting USB device enumeration
+00:00:00.190269          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.190413          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.194170          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.194375          USB: Unknown USB device detected (idVendor: 0x05c8, idProduct: 0x03bc)
+00:00:00.194525          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:00.270232          HostDnsMonitor: initializing
+00:00:00.287416          HostDnsMonitor: updating information
+00:00:00.287491          HostDnsMonitor: old information
+00:00:00.287492            no server entries
+00:00:00.287493            no domain set
+00:00:00.287494            no search string entries
+00:00:00.287494          HostDnsMonitor: new information
+00:00:00.287495            server 1: 210.220.163.82
+00:00:00.287495            server 2: 219.250.36.130
+00:00:00.287496            no domain set
+00:00:00.287496            no search string entries
+00:00:00.380017          VD: VDInit finished with VINF_SUCCESS
+00:00:00.381506          VirtualBox: object created
+00:00:02.535155          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.542620          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:47.314396 dns-monitor HostDnsMonitor: updating information
+00:01:47.314423 dns-monitor HostDnsMonitor: unchanged
+00:01:51.743420 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:51.745588 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:01:51.745805 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:01:51.746139 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:01:54.213512 dns-monitor HostDnsMonitor: updating information
+00:01:54.213566 dns-monitor HostDnsMonitor: unchanged
+00:01:55.410397 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:55.414944 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:01:55.415763 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:01:55.418476 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:01:57.288684 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:57.301272 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:01:57.311149 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:01:57.314134 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:02:00.095042 dns-monitor HostDnsMonitor: updating information
+00:02:00.095092 dns-monitor HostDnsMonitor: unchanged
+00:02:01.657981 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:02:01.668874 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:02:01.671749 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:02:01.673805 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:02:05.729282 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:02:05.793047 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:02:05.793333 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&56d8a77&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:02:05.793785 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:16:55.396980 dns-monitor HostDnsMonitor: updating information
+00:16:55.397029 dns-monitor HostDnsMonitor: unchanged
+00:17:00.518249 dns-monitor HostDnsMonitor: updating information
+00:17:00.518282 dns-monitor HostDnsMonitor: unchanged
+00:28:15.006128          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:28:46.384582 createBase Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:28:46.930114          Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:28:46.941689          Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:28:46.947184          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:28:46.968502          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:28:46.978826          Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:30:10.339773          Launched VM: 48147008 pid: 7420 (0x1cfc) frontend: GUI/Qt name: ubuntu
+00:30:17.384637          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:30:17.728599          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:30:18.117480          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:18.123345          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:18.130028          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:18.137030          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:18.143515          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:31:15.199043          Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:31:21.650189          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:31:55.656979 dns-monitor HostDnsMonitor: updating information
+00:31:55.657026 dns-monitor HostDnsMonitor: unchanged
+00:31:56.371154          Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:31:56.488163          Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:31:56.503763 SaveState Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:31:57.023551          Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:31:57.068446          Saving settings file "C:\VirtualBox\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:32:00.755888 dns-monitor HostDnsMonitor: updating information
+00:32:00.755912 dns-monitor HostDnsMonitor: unchanged
+00:42:50.820117          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:50.833331          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:50.865421          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:50.880791          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:50.889247          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:50.914087          Saving settings file "C:\Users\PC\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:56.468049 main     VirtualBox: object deletion starts
+00:42:56.468110 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\VirtualBox\ubuntu\ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:42:56.469461 main     HostDnsMonitor: shutting down ...
+00:42:56.469600 main     HostDnsMonitor: shut down
+00:42:56.472633 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:42:56.473464 main     VirtualBox: object deleted

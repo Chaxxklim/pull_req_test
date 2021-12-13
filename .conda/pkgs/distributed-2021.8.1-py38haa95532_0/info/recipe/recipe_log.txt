@@ -1,0 +1,2110 @@
+commit 9bc0c7f4f0881d4c1229ceddc2aa85811b85b555
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Mon Aug 23 02:28:14 2021 +0000
+
+    DOR update to 2021.8.1
+
+commit 4df8f51f40004de0741fcc18ef7e1fe9365141cc
+Merge: 79c2adf b153435
+Author: anaconda-pkg-build <66446536+anaconda-pkg-build@users.noreply.github.com>
+Date:   Mon Aug 16 14:52:11 2021 -0500
+
+    Merge pull request #7 from AnacondaRecipes/pbs_2021.8.0_20210816T143138
+    
+    distributed 2021.8.0
+
+commit b1534352debd060a5b04ad0ebf6f4dab3442af4d
+Author: Anju Thomas <anthomas@anaconda.com>
+Date:   Mon Aug 16 14:20:58 2021 -0500
+
+    Add jinja2 dependency
+
+commit 3a07b0f16f6282945e9ac78964475279a5c00fa5
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Mon Aug 16 14:31:39 2021 +0000
+
+    DOR update to 2021.8.0
+
+commit 79c2adf54530670b75376d16378519d27d717547
+Merge: ba0ebe2 5d258da
+Author: anaconda-pkg-build <66446536+anaconda-pkg-build@users.noreply.github.com>
+Date:   Tue Aug 3 12:34:38 2021 -0500
+
+    Merge pull request #5 from AnacondaRecipes/pbs_2021.7.2_20210731T053231
+    
+    distributed 2021.7.2
+
+commit 5d258da5ff1940e08dde679c998c132fc829e465
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Sat Jul 31 05:32:32 2021 +0000
+
+    DOR update to 2021.7.2
+
+commit ba0ebe2eb0023956d5a9212b086a0a501c214cf2
+Merge: 283e393 4f6597b
+Author: anaconda-pkg-build <66446536+anaconda-pkg-build@users.noreply.github.com>
+Date:   Mon Jul 12 13:43:29 2021 -0500
+
+    Merge pull request #3 from AnacondaRecipes/pbs_2021.7.0_20210712T045758
+    
+    distributed 2021.7.0
+
+commit 4f6597b53b884c3f7a8e33dfb280f9999e346109
+Author: Anju Thomas <anthomas@anaconda.com>
+Date:   Mon Jul 12 13:02:12 2021 -0500
+
+    Added dependency colorama for win
+
+commit d92bbfee37b6a6b42a12672e709d3d0b545eedf4
+Author: Anju Thomas <anthomas@anaconda.com>
+Date:   Mon Jul 12 12:51:54 2021 -0500
+
+    Added dependency and test commands
+
+commit ee88fae09e55d696255b3a4dce5a2ee9117af61b
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Mon Jul 12 04:57:59 2021 +0000
+
+    DOR update to 2021.7.0
+
+commit 283e39360feaafa5a077c2d6695e796c0b679658
+Merge: 384749f d417b5e
+Author: AnjuSThomas-anaconda <79927493+AnjuSThomas-anaconda@users.noreply.github.com>
+Date:   Fri Jun 25 08:46:32 2021 -0500
+
+    Merge pull request #2 from AnacondaRecipes/pbs_2021.6.2_20210622T170738
+    
+    distributed 2021.6.2
+
+commit d417b5e3dc70469d4ca76304e9dca6bbabcca6e4
+Merge: a68ea33 384749f
+Author: AnjuSThomas-anaconda <79927493+AnjuSThomas-anaconda@users.noreply.github.com>
+Date:   Fri Jun 25 08:45:23 2021 -0500
+
+    Merge branch 'master' into pbs_2021.6.2_20210622T170738
+
+commit 384749ffe047fd3ac3ef6b1aa2e4740fe62cd293
+Merge: f34ef0a 4e9bdc7
+Author: anaconda-pkg-build <66446536+anaconda-pkg-build@users.noreply.github.com>
+Date:   Thu Jun 24 20:43:07 2021 -0500
+
+    Merge pull request #1 from AnacondaRecipes/pbs_2021.6.1_20210621T160313
+    
+    distributed 2021.6.1
+
+commit a68ea33f9e0caaaa04132d82916d1e2ed68d8585
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Tue Jun 22 17:07:39 2021 +0000
+
+    DOR update to 2021.6.2
+
+commit 4e9bdc7c8a7a89419c1568c819555533bc7492ee
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Mon Jun 21 16:03:14 2021 +0000
+
+    DOR update to 2021.6.1
+
+commit f34ef0aefd90f1ebab675167dee10608271b0162
+Author: Anju Thomas <anthomas@anaconda.com>
+Date:   Tue Jun 8 12:44:36 2021 -0500
+
+    Added note for dask-distributed build order and dependency
+
+commit a4d56e1f059a679221da2d175f6b76e4812f117d
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Mon Jun 7 14:27:32 2021 +0000
+
+    DOR update to 2021.6.0
+
+commit 37d6103a05f06eb44898c7114bd72b761d7ad9e4
+Author: Anju Thomas <anthomas@anaconda.com>
+Date:   Wed Jun 2 09:20:28 2021 -0500
+
+    updated dependency for dask
+
+commit 4cc56d88c3a07527abac0a63345944f091d8d248
+Author: Anju Thomas <anthomas@anaconda.com>
+Date:   Tue Jun 1 13:13:04 2021 -0500
+
+    Fixed the version number for dask'
+
+commit fbb9d16871a51b801b1e509ddc65cc07d38f7bef
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Mon May 31 19:54:43 2021 +0000
+
+    DOR update to 2021.5.1
+
+commit 8912f8ad2707a33ffbd2dbc09e0dcaf25f13e61d
+Author: Anju Thomas <anthomas@anaconda.com>
+Date:   Mon May 17 17:21:25 2021 -0500
+
+    Updated dask version dependency as this a circle dependency
+
+commit 9817c5744c22da347fc53fe49d2cd50b4b8e83a6
+Author: Anju Thomas <anthomas@anaconda.com>
+Date:   Mon May 17 17:09:18 2021 -0500
+
+    Update the dependencies from upstream setup.py
+
+commit 1075b0aece6446fcb856021de068f4008ddead9c
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Mon May 17 13:42:53 2021 +0000
+
+    DOR update to 2021.5.0
+
+commit 77c438216f0d16fad666471f9db7fd32a3fb7521
+Author: Serhii Kupriienko <skupriienko@anaconda.com>
+Date:   Thu May 13 14:57:23 2021 +0300
+
+    Updated dependencies in meta.yaml from upstream source
+
+commit b1e78b5d3af30a955285918b666d484a8ba5be9a
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Wed May 12 13:56:31 2021 +0000
+
+    DOR update to 2021.4.1
+
+commit eb725fe9bf26e5974e6674caa0991210d5fef5fe
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Fri Apr 2 17:18:54 2021 +0000
+
+    DOR update to 2021.4.0
+
+commit ea4fa12427c3a75062a02d74eb1156c3926d6098
+Author: Maxwell Varlack <varlackc@mail.gvsu.edu>
+Date:   Wed Mar 31 12:48:09 2021 -0700
+
+    Updated the new release python support info
+
+commit eb379d709097538db04cb6e6d55b8a6a4bf064c8
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Tue Mar 30 15:56:04 2021 +0000
+
+    DOR update to 2021.3.1
+
+commit 9dd95f7f18049f28ce08b9b046f62bdce0847ef8
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Sat Mar 6 18:01:51 2021 +0000
+
+    DOR update to 2021.3.0
+
+commit 3227f1d2868480e94d6622de627357adada441a2
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Sat Feb 13 21:55:23 2021 +0000
+
+    DOR update to 2021.2.0
+
+commit 8201c8a88c06df5b2a1bc9042215a22e3f211a35
+Author: Paul Yim <paul.j.yim@gmail.com>
+Date:   Mon Jan 25 10:06:31 2021 -0500
+
+    Reset build number to 0.
+
+commit a58cfae79444c328c28cdaac129e3a1484bbeddc
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Fri Jan 22 18:48:11 2021 +0000
+
+    DOR update to 2021.1.1
+
+commit 472477fb634f6ef2b52428bd1e23e44bf4cb37e9
+Author: Connor Martin <connormartin7@gmail.com>
+Date:   Fri Dec 11 13:13:01 2020 -0600
+
+    remove cross_python
+
+commit 923355f0999d37a6604663fbc5f07a0da8442983
+Merge: c70d0ac caddf16
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Mon Jan 18 10:28:14 2021 +0000
+
+    Merge pull request #155 from regro-cf-autotick-bot/rebuild-pypy-0-1_h9327d4
+    
+    Rebuild for pypy
+
+commit c70d0ac48c92a2fe0cf566049f381187918f4e90
+Merge: 759d0d0 2c84e74
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Mon Jan 18 10:27:29 2021 +0000
+
+    Merge pull request #156 from regro-cf-autotick-bot/rebuild-pypy37-0-1_h68470a
+    
+    Rebuild for pypy37
+
+commit 759d0d04f06ab402208d4221c6f1be8ec33e9e4e
+Merge: 30cc9a6 17db2e6
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jan 16 01:21:50 2021 +0000
+
+    distributed v2021.1.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 17db2e6699082f7637dd9f25330de561f92bda40
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat Jan 16 00:19:32 2021 +0000
+
+    MNT: Re-rendered with conda-build 3.21.4, conda-smithy 3.8.6, and conda-forge-pinning 2021.01.15.19.38.06
+
+commit 8de1ea092fc4daaadcaa5cff583ce9bf8cddc9f7
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat Jan 16 00:19:23 2021 +0000
+
+    updated v2021.1.0
+
+commit 2c84e74ec2b07c62955c64355cc63228d05c5c8d
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Jan 14 05:35:40 2021 +0000
+
+    MNT: Re-rendered with conda-build 3.21.3, conda-smithy 3.8.6, and conda-forge-pinning 2021.01.14.02.00.42
+
+commit fe1c02e0ce3e7f7791de05699d3c2937b9249ce2
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Jan 14 05:35:28 2021 +0000
+
+    Rebuild for pypy37
+
+commit caddf16465ffb518bf4f3f724222c760402a076b
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Jan 14 02:32:30 2021 +0000
+
+    MNT: Re-rendered with conda-build 3.21.3, conda-smithy 3.8.6, and conda-forge-pinning 2021.01.14.02.00.42
+
+commit 8b2178d2307650bf9081c0ac60fc84b6a942a42e
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Jan 14 02:32:20 2021 +0000
+
+    Rebuild for pypy
+
+commit 30cc9a689046489db934e44be2f72f91c3da0afd
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Fri Dec 11 12:14:44 2020 -0800
+
+    Request bot to check solvable before opening PRs
+    
+    As `distributed` package builds depend on `dask-core` package builds, if
+    PRs are opened to both feedstocks to update the package version at the
+    same time, the PR to `distributed` will fail until `dask-core` packages
+    are available. This fixes that issue by ensuring that `distributed`'s
+    dependencies (`dask-core` in this case) are available before opening a
+    PR. That way the PR will only be opened after `dask-core` has new
+    packages published. Should cutdown the time recipe maintainers spend
+    restarting CI to get the new dependencies.
+
+commit 639097f4a31f0e44290d9eb8274659f6e3a347f1
+Merge: 294fa83 cdcc604
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Dec 11 05:17:28 2020 +0000
+
+    distributed v2020.12.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit cdcc604109b3b9403f872b09e877645f7b303cf9
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Thu Dec 10 23:02:46 2020 -0600
+
+    Trigger CI
+
+commit b044afc3ae92a8675feb18859c9123a44b0ca8ae
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Thu Dec 10 21:28:08 2020 -0600
+
+    Update minimum Dask version
+
+commit 5762c32a1ffbd85d795d8239b16a1b0e5c114aa8
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Dec 11 03:00:43 2020 +0000
+
+    updated v2020.12.0
+
+commit 294fa83f2a3f9ff6f0b84537b8d69245bfca99e4
+Merge: 31525b5 4b5a34b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Nov 26 19:36:41 2020 -0800
+
+    Merge pull request #151 from regro-cf-autotick-bot/bot-pr_arm_osx_h931e61
+    
+    ARM OSX Migrator
+
+commit 4b5a34becabd9dfe763aabe6a5240e67a1a8fef1
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Nov 26 13:53:54 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.11.26.07.13.25
+
+commit 2fcaa2a09dbe1a435477175f7e88a0612c3d0722
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Nov 26 13:53:44 2020 +0000
+
+    migration: OSXArm
+
+commit 31525b503389f88beb21afcf8cb42844209881d2
+Merge: 075db72 e88d5e6
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Nov 4 16:38:20 2020 +0000
+
+    distributed v2.30.1
+    
+    automerged PR by conda-forge/automerge-action
+
+commit e88d5e652c2d8c5ec1f0f24a38f3887f51a4a49d
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Wed Nov 4 10:13:45 2020 -0600
+
+    Reset build number
+
+commit 76008ecfcdb3ee400bd30f704ecc6e402fd4a1d7
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Wed Nov 4 09:42:04 2020 -0600
+
+    distributed v2.30.1
+
+commit 075db72f9c1c91178be16ef8daf00376ac2e7616
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Oct 11 04:49:28 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.3, conda-smithy 3.8.1, and conda-forge-pinning 2020.10.09.16.47.17
+
+commit 2765614f918a7366f360cdc7719a10c41f432f90
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Oct 11 04:49:17 2020 +0000
+
+    Rebuild for python39
+
+commit 05db0ad2bb5d9f33c0f15248476f778b8d6ec5a5
+Merge: aa18076 af5373b
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Tue Oct 6 19:45:32 2020 -0500
+
+    Merge pull request #147 from regro-cf-autotick-bot/2.30.0_h9353c4
+    
+    distributed v2.30.0
+
+commit af5373b23f0eecbcf567631a77dc4f37835e0061
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Oct 7 00:06:41 2020 +0000
+
+    updated v2.30.0
+
+commit aa180767245532885821d90d084442db1ae550dd
+Merge: 5f8e1b5 e5f7368
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Oct 3 04:41:14 2020 +0000
+
+    distributed v2.29.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit e5f73682cd27173d1b09e39990e56d470783d531
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sat Oct 3 04:28:17 2020 +0000
+
+    updated v2.29.0
+
+commit 5f8e1b5a764ee10ff07837fc0888fe998d507cb7
+Merge: 1eb34ac fed030d
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Sat Sep 26 00:20:37 2020 -0500
+
+    Merge pull request #144 from regro-cf-autotick-bot/2.28.0_h8df61f
+    
+    distributed v2.28.0
+
+commit fed030d42bb95620c67c1c08032c91e615b2eee6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 26 05:04:32 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.09.25.17.46.30
+
+commit dab8a5bf5a777ee68123b5172b9fe3d9026de0b9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 26 05:04:13 2020 +0000
+
+    updated v2.28.0
+
+commit 1eb34ac368469b10bf2792a5d6552b4d3569b44c
+Merge: 7d1cb40 b884a57
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Fri Sep 18 23:35:16 2020 -0500
+
+    Merge pull request #143 from regro-cf-autotick-bot/2.27.0_h080e75
+    
+    distributed v2.27.0
+
+commit b884a57218c7a79a55f11979ae21c8e25130fd21
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 19 04:13:02 2020 +0000
+
+    updated v2.27.0
+
+commit 7d1cb406e9b9fbf53f38697fc82d9da0492ee240
+Merge: a8e46d9 06a21f0
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Sep 11 23:49:40 2020 +0000
+
+    distributed v2.26.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 06a21f01bcaf34bb796082114e437f661e608adf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 11 23:10:37 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.09.11.19.40.57
+
+commit ddb4ce5a989da61f613c325039abd28fa1310fb5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 11 23:10:25 2020 +0000
+
+    updated v2.26.0
+
+commit a8e46d9a4c06bf29ed60b9b4f81c425e93173f95
+Merge: dbd2ee0 468c035
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Fri Aug 28 19:36:04 2020 -0500
+
+    Merge pull request #141 from regro-cf-autotick-bot/2.25.0_h0083e2
+    
+    distributed v2.25.0
+
+commit 468c0353e7e90fad1e2af2119d8a65c6e2bc5b50
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 28 23:35:19 2020 +0000
+
+    updated v2.25.0
+
+commit dbd2ee0312eafe50de1a98448b7ca4a96645e2a1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 22 18:30:01 2020 +0000
+
+    updated v2.24.0
+
+commit d2c910d29c664a82aa1c92357d844f8fa48c73ed
+Merge: 1af220d 75eb8e1
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Aug 14 16:47:43 2020 +0000
+
+    distributed v2.23.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 75eb8e12c9e9437de42d62684fd244d94bace80e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 14 16:32:07 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.9, and conda-forge-pinning 2020.08.13.04.25.14
+
+commit 590c4207fbf75431f70749f2ca06be5cb5af5825
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 14 16:31:56 2020 +0000
+
+    updated v2.23.0
+
+commit 1af220d66491b64ac1c3e85745290e20b1849c09
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Fri Aug 7 23:36:22 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit a13e645b82f5773312e88396ccd80e95cf8ed7c9
+Merge: 29fc480 b882dd3
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Aug 1 01:32:48 2020 +0000
+
+    distributed v2.22.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit b882dd3e54faf8bcf43122780edc11ac66bb1879
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 1 00:23:53 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.5, and conda-forge-pinning 2020.07.31.22.07.41
+
+commit 523cb3bf648a8b57ab797becc48b440e811e8f8c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 1 00:23:42 2020 +0000
+
+    updated v2.22.0
+
+commit 29fc480c325878ea0490f4d83b403906974609aa
+Merge: d2620e8 84e17e1
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jul 18 01:40:04 2020 +0000
+
+    distributed v2.21.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 84e17e1e66e55fb42581f522a8b6aae1f3eb76e7
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Fri Jul 17 18:23:57 2020 -0700
+
+    Require `cloudpickle` version `1.5.0+`
+
+commit ca60365a0ac235966a49f41baab8e289e207d92a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 18 01:03:34 2020 +0000
+
+    updated v2.21.0
+
+commit d2620e8ca7d8ce091d8705baa5c5744f86f50479
+Merge: 419bc0e 1f298c5
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Fri Jul 3 20:16:45 2020 +0100
+
+    Merge pull request #136 from regro-cf-autotick-bot/bot-pr_arch_h35ebc7
+    
+    Arch Migrator
+
+commit 1f298c517fd1e21816328d0acfb9e7402842a338
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 3 17:48:34 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.03.10.54.45
+
+commit 7cebf394b222a072389b0fab67bf19de43e9a6e6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 3 17:48:24 2020 +0000
+
+    migration: ArchRebuild
+
+commit 419bc0e083198c82055b3e28073bcfb68b0bd981
+Merge: 54fcd7f 226dd96
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Jul 3 05:28:27 2020 +0000
+
+    distributed v2.20.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 226dd964ca2191561f4cc22be11fa6027b29a9c8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 3 05:12:35 2020 +0000
+
+    updated v2.20.0
+
+commit 54fcd7fe7c5a2b9281db2aa5f92d07b1f6108973
+Merge: de650d9 d2ea089
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Jun 19 19:09:09 2020 +0000
+
+    distributed v2.19.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit d2ea089bbe1065c1877cfebb34138f49869c2970
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jun 19 18:54:56 2020 +0000
+
+    updated v2.19.0
+
+commit de650d957d9e001c0a7a80d61587bab74e9190b8
+Merge: 70b3d8b c676c1e
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Fri Jun 5 21:05:31 2020 -0500
+
+    Merge pull request #133 from regro-cf-autotick-bot/2.18.0_h7abfc4
+    
+    distributed v2.18.0
+
+commit c676c1e8d4a67d77b2f596c9af6f64eea8456f04
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jun 6 01:45:17 2020 +0000
+
+    updated v2.18.0
+
+commit 70b3d8bc476ad5178f69ddcaa5e92476bcfeee74
+Merge: 38e5dd8 eb1014e
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed May 27 03:46:32 2020 +0000
+
+    distributed v2.17.0
+    
+    automerged PR by conda-forge/automerge-action
+
+commit eb1014eb439561f449d6b471297f98eb89ce09ac
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Tue May 26 22:34:25 2020 -0500
+
+    Bump cloudpickle dep
+
+commit 62baa2bc93a7733dc046e5b14de84ec4b0a98249
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 27 03:26:42 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.05.25.23.01.15
+
+commit e962780217f7caf6898461c8993249b702a9c6b7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 27 03:26:16 2020 +0000
+
+    updated v2.17.0
+
+commit 38e5dd80bc740ac75686597056af4f0e9a070047
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:02:55 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 7f3e37437e6a5088744459daa3377aca5b5eceb7
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 01:31:56 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit c12f48d1f4d1a7347472cae515c99b7fa0796652
+Merge: 00e6a3c 15ded36
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri May 8 22:14:23 2020 +0000
+
+    distributed v2.16.0
+    
+    automerged PR by regro-cf-autotick-bot-action
+
+commit 15ded36f8b5ad05f2e6ea375c94cbb60d41844f0
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Fri May 8 15:02:11 2020 -0700
+
+    Require `contextvars` on Python 3.6
+
+commit 3ff79a7922f9b6b985742663a14db9653188d937
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 8 21:52:29 2020 +0000
+
+    updated v2.16.0
+
+commit 00e6a3c84414437fefe7d2caa65e29c760cecbe6
+Merge: a99e920 d1ce79c
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Fri May 1 16:25:06 2020 +0100
+
+    Merge pull request #128 from regro-cf-autotick-bot/2.15.2_hc9a24b
+    
+    distributed v2.15.2
+
+commit d1ce79cfd02cb4f0137a9c5fb9a2a191839a305b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 1 15:07:05 2020 +0000
+
+    updated v2.15.2
+
+commit a99e920aff5ca22b22673422de3b3736fdf24fd4
+Merge: be34879 acd8f54
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Tue Apr 28 11:03:14 2020 -0500
+
+    Merge pull request #127 from regro-cf-autotick-bot/2.15.1_he3f0df
+    
+    distributed v2.15.1
+
+commit acd8f5412699941b92421d6d04d607b87f0b3a71
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Apr 28 15:48:41 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.04.28.13.02.26
+
+commit e1bb83c6ccb0aa00cafd74e71d178266d4417a8a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Apr 28 15:48:15 2020 +0000
+
+    updated v2.15.1
+
+commit be34879ffdbffd7da84406476550d38179ea4007
+Merge: c4b82f6 a188f06
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Apr 25 05:36:23 2020 +0000
+
+    distributed v2.15.0
+    
+    automerged PR by regro-cf-autotick-bot-action
+
+commit a188f067b267828f15bae2f85d7ace64adda35ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 25 05:16:20 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.17, and conda-forge-pinning 2020.04.24.22.56.04
+
+commit e33b590752c842b2bbb429bef2210a97609c8442
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Apr 25 05:15:54 2020 +0000
+
+    updated v2.15.0
+
+commit c4b82f647d8371e6bc7b1c5b62beb2bcde4188a6
+Merge: 0c03d36 e655c2f
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Fri Apr 3 22:06:25 2020 -0500
+
+    Merge pull request #125 from regro-cf-autotick-bot/2.14.0_hb234c2
+    
+    distributed v2.14.0
+
+commit e655c2f1d35b95ef1377c640a4940f189d2f910d
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Fri Apr 3 16:53:48 2020 -0500
+
+    Move openssl to run_constrained
+
+commit a1f2b2c960881fffb7ee9f8617f44aa909f9cdee
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Apr 3 21:29:30 2020 +0000
+
+    updated v2.14.0
+
+commit 0c03d36eb251d2b07813afcc7717cedc6c6aecd2
+Merge: 92a2e43 0775b97
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Wed Mar 25 17:57:38 2020 -0500
+
+    Merge pull request #122 from regro-cf-autotick-bot/2.13.0
+    
+    distributed v2.13.0
+
+commit 0775b97d5f69d56d5d4e1845f3964d900c635753
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Wed Mar 25 17:33:36 2020 -0500
+
+    Update dependencies
+
+commit 66bf4c039b393e67d5364fec50b08820f16b080c
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Mar 25 21:37:31 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.24
+
+commit 3d50bb105a92a6b2cce20daf7c8d5482043dea5e
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Mar 25 14:33:34 2020 -0700
+
+    Make `license` metadata compatible with SPDX
+
+commit 3fb464812facdd79a8967bb9ac818198d7493034
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 25 20:35:09 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.24
+
+commit 49f298b8a2580392176e865c92e9c752d1d2fe4c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 25 20:34:41 2020 +0000
+
+    updated v2.13.0
+
+commit 92a2e4316ccc2a8388f7b31304cea2f61ddf9b57
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 6 21:28:54 2020 +0000
+
+    updated v2.12.0
+
+commit f2dc9d446e6d74538c4a167acf2e69853e09e022
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 19:13:32 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit ae22170aa09fd85323991d54f83f5b3ec6e9217a
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Feb 19 11:07:59 2020 -0800
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.19
+    
+    Now that the Python 3.8 migration has been added manually, re-render to
+    update the feedstock accordingly.
+
+commit b8a4aa57f69b9bca13229f495526966c6d480159
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Feb 19 11:07:22 2020 -0800
+
+    Add Python 3.8 migration manually
+
+commit 57bc40226e6809a0645beda35df8c37711bce81e
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Feb 19 10:53:15 2020 -0800
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.19
+    
+    Now that `aarch64` and `ppc64le` are manually included, re-render to add
+    the CI configurations for those builds.
+
+commit 242272df2f8786a0dde71065f9ae10f48c6c59ef
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Feb 19 10:51:56 2020 -0800
+
+    Add in `aarch64` and `ppc64le` manually
+    
+    These were effectively included before as the package was `noarch:
+    python`. Add them in manually now so they are kept for the next release.
+
+commit 0c2d2e5519786c7a466582108702a26e9aa536a8
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Feb 19 10:50:47 2020 -0800
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.19
+    
+    Now that the default CI providers are used, re-render to update the CI
+    configuration files.
+
+commit daa27cc6fe98556ff84b9d20765c1a7ca901d926
+Author: John Kirkham <jakirkham@gmail.com>
+Date:   Wed Feb 19 10:48:45 2020 -0800
+
+    Use default providers
+
+commit 43895e137218d87ae2f44eeb3a13e16db2dde5bd
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Feb 19 18:47:37 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.19
+
+commit f0563dbd9097738da752cebe04ae0c7f55ff1898
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Wed Feb 19 12:37:45 2020 -0600
+
+    Remove host and run python version constraints
+
+commit 8f63b29addbaa31d762804e7085de6dd3b00bca8
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Wed Feb 19 12:35:38 2020 -0600
+
+    Remove noarch
+
+commit 1bae7e423eb892c183cd4e6c50bb8d74d5868101
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Wed Feb 19 12:31:52 2020 -0600
+
+    Update selector formatting
+
+commit 2e291e0d9bb7103b4e616083d315b43ce4a2d574
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Wed Feb 19 12:29:29 2020 -0600
+
+    Update deps
+
+commit 16e2b8bfb1c9c6cafa0f4aca4f3219cf0754b891
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 19 18:19:20 2020 +0000
+
+    updated v2.11.0
+
+commit 19b244994946fafce06457dd12f337ce83862d5c
+Author: Matthias Bussonnier <bussonniermatthias@gmail.com>
+Date:   Tue Feb 18 16:18:32 2020 -0800
+
+    Pin message-pack to <1.0 (recently release and incompatible)
+    
+    As per dask/distributed#3494,  dask/distributed#3498 and dask/distributed#3491
+
+commit 18aac51e8130b820b260a7935f827510ea882fc0
+Merge: 4d5a13c d86b186
+Author: Tom Augspurger <TomAugspurger@users.noreply.github.com>
+Date:   Tue Jan 28 15:25:39 2020 -0600
+
+    Merge pull request #112 from regro-cf-autotick-bot/2.10.0
+    
+    distributed v2.10.0
+
+commit d86b186c200ab963fcefe26d2c223b91a3c85ab5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 28 21:14:38 2020 +0000
+
+    updated v2.10.0
+
+commit 4d5a13c4aaf5c0c4a59578e4af4f85340bba3297
+Merge: ca7642a b94e35b
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Fri Jan 17 12:21:22 2020 -0600
+
+    Merge pull request #111 from regro-cf-autotick-bot/2.9.3
+    
+    distributed v2.9.3
+
+commit b94e35bac89fa5609e624ad5310523d346bbbaf7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 17 18:13:50 2020 +0000
+
+    updated v2.9.3
+
+commit ca7642afe956ab09a902739f8088de36476f76d3
+Merge: 3118996 3834c6a
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Thu Jan 16 19:59:49 2020 -0600
+
+    Merge pull request #110 from regro-cf-autotick-bot/2.9.2
+    
+    distributed v2.9.2
+
+commit 3834c6aa15c7b0c64a4c3b88a981ae6d7f600481
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Thu Jan 16 19:53:20 2020 -0600
+
+    Update deps
+
+commit 58c6ced504e49d47b41a3ca2b5a173cd0b30acdd
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 17 00:14:30 2020 +0000
+
+    updated v2.9.2
+
+commit 3118996c6d78769ad3365e4dba56c9e228c42266
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 27 19:13:03 2019 +0000
+
+    updated v2.9.1
+
+commit 0829910397ba19525564c251e064d87714f6b53d
+Merge: 49195e1 84507df
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Fri Dec 6 16:36:35 2019 -0600
+
+    Merge pull request #107 from regro-cf-autotick-bot/2.9.0
+    
+    distributed v2.9.0
+
+commit 84507df89a466aaeb3998db36ddd059a814a08f6
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Fri Dec 6 16:31:57 2019 -0600
+
+    Remove dask-submit and dask-remote commands
+
+commit 67742261932d310427a409fd6af579cf42036f30
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 6 22:22:54 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit c9d5fb02e74fc0eb7423e0594cc026d0f349d171
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 6 22:22:39 2019 +0000
+
+    updated v2.9.0
+
+commit 49195e1f6a418cd3c35ee369255f333efffa7b1f
+Merge: 9dd97c8 a62b849
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Fri Nov 22 23:24:48 2019 -0600
+
+    Merge pull request #105 from regro-cf-autotick-bot/2.8.1
+    
+    distributed v2.8.1
+
+commit a62b849704ec5c72232253e396e33806891f737c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 23 05:19:25 2019 +0000
+
+    updated v2.8.1
+
+commit 9dd97c83d7d850743bc22c9487d89654c7fd4de3
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Thu Nov 14 22:19:01 2019 -0600
+
+    Bump minimum dask to 2.7.0
+
+commit cc298258c385b401a04c172a720d5469b959984a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 14 23:18:00 2019 +0000
+
+    updated v2.8.0
+
+commit 526f752eb273b77841132e356756484966b45981
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Nov 13 07:53:33 2019 -0800
+
+    Require Python 3.6 or above
+
+commit 37e1619c8713d6df770f2bae68acdb638d99be2f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 8 21:20:56 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.01
+
+commit a8c9463ed1698171c024d0e475565d9cfab46195
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 8 21:20:40 2019 +0000
+
+    updated v2.7.0
+
+commit a6672fc056193792be40a03889a75c37b44dc0c7
+Merge: 271cd82 27f2190
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Tue Oct 15 21:49:58 2019 -0500
+
+    Merge pull request #99 from regro-cf-autotick-bot/2.6.0
+    
+    distributed v2.6.0
+
+commit 27f21901bee8d7329a84bb24157099779ec3610e
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Tue Oct 15 21:43:29 2019 -0500
+
+    Bump dask-core version
+
+commit 88d34296756cca75754b0bb3a4bf088745fbf394
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 16 02:18:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 92d69f7b8458db2ad2f9a12ae65a01ce1da314a7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 16 02:18:09 2019 +0000
+
+    updated v2.6.0
+
+commit 271cd82e1462a14c5782d7705365ca8f848ca64e
+Merge: 0986b21 ef8dab3
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Fri Oct 4 22:30:32 2019 +0100
+
+    Merge pull request #98 from regro-cf-autotick-bot/2.5.2
+    
+    distributed v2.5.2
+
+commit ef8dab331c7a76b9293e5f14bae8dbaef89ec90a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 4 21:20:25 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.01
+
+commit 4d9d20426f81865a747afbcf66e20304cd0ad76d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 4 21:20:08 2019 +0000
+
+    updated v2.5.2
+
+commit 0986b210ed40d4dd73c2cc7cba3072118022c87d
+Merge: 13082d5 2536347
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Sat Sep 28 00:29:19 2019 +0100
+
+    Merge pull request #97 from regro-cf-autotick-bot/2.5.1
+    
+    distributed v2.5.1
+
+commit 2536347cd817d37491487c9d4c5b829328b6020a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 27 23:16:13 2019 +0000
+
+    updated v2.5.1
+
+commit 13082d5416d720cb4b44791fb222305101a194ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 27 16:17:11 2019 +0000
+
+    updated v2.5.0
+
+commit 01b8985ea260e4b3c26a2049d9ab0683a4e6f932
+Merge: c015052 e19eaa1
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Fri Sep 13 16:33:11 2019 -0500
+
+    Merge pull request #95 from regro-cf-autotick-bot/2.4.0
+    
+    distributed v2.4.0
+
+commit e19eaa15867f4da152345414fb905efa351af812
+Author: James Bourbeau <jrbourbeau@gmail.com>
+Date:   Fri Sep 13 16:25:25 2019 -0500
+
+    Remove six
+
+commit 8828f1b275039d289395ec795b1a6765a5abfaa4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 13 21:14:25 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.6, and conda-forge-pinning 2019.09.08
+
+commit b5c412ab9b63effc4892c213e3cfbcbc97073f54
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 13 21:14:02 2019 +0000
+
+    updated v2.4.0
+
+commit c01505261894d00235ca6e93958f910ef2d5bab8
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:33:52 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 56ec833953dd17c75437b729f3b052354fa13120
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Aug 25 10:55:40 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.22
+
+commit 95830ee01d33700a9a7bd0e79887eb6863910556
+Merge: b7d806e fec5db7
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Fri Aug 23 18:06:49 2019 +0100
+
+    Merge pull request #92 from pitrou/remove-myself
+    
+    Remove myself from maintainers
+
+commit fec5db79bbf5039933cf9c70ac35b8732c9fc887
+Author: Antoine Pitrou <antoine@python.org>
+Date:   Fri Aug 23 18:55:22 2019 +0200
+
+    Remove myself from maintainers
+    
+    I haven't actually worked on distributed for a long time, so it doesn't
+    make much sense to keep me a maintainer.
+
+commit b7d806e54c885c38d13ad04e51e6d0de65203391
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 23 16:26:50 2019 +0000
+
+    updated v2.3.2
+
+commit 359df589f195ebf2f99cc8988a34c559e87d6269
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 22 17:23:22 2019 +0000
+
+    updated v2.3.1
+
+commit 19ce101e052e4cd850f3de8da6e002076276de91
+Merge: ca36e94 97996c2
+Author: James Bourbeau <jrbourbeau@users.noreply.github.com>
+Date:   Sat Aug 17 00:20:14 2019 -0400
+
+    Merge pull request #89 from regro-cf-autotick-bot/2.3.0
+    
+    distributed v2.3.0
+
+commit 97996c2468a851616387b3bd8209899bca91ed5c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 17 02:27:20 2019 +0000
+
+    updated v2.3.0
+
+commit ca36e945bd27d31c8d581f35d9cc5d648cd9023d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Aug 1 13:21:57 2019 -0700
+
+    remove dask-mpi from entry points
+
+commit 6e288f2b8653f50d7cae72a0df9b835d30fcc905
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 1 00:26:43 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.26
+
+commit 91780cbe67e540fb3ac5f86973ba16203a7b32ff
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 1 00:26:30 2019 +0000
+
+    updated v2.2.0
+
+commit e379754c9700eed34205077dc38d2e552ce3b269
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 8 16:29:46 2019 +0000
+
+    updated v2.1.0
+
+commit 091811a59750bf0dd6992edbf5fca42ec51e5b1e
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Jun 26 09:50:46 2019 -0500
+
+    2.0.1
+
+commit 14e20f7c716d89675f5b026ce055c0887867b736
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jun 25 18:56:30 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.4, conda-smithy 3.4.0, and conda-forge-pinning 2019.06.19
+
+commit 5b166379d639f9c483115b2aeb5819ea704cce06
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Jun 25 20:52:48 2019 +0200
+
+    Bump version to 2.0.0
+    
+    Also add noarch now that we can drop the Python 2 conditions
+
+commit cb947fc2d05cfb80d591dcaeabfaec94717c77b1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon May 13 23:33:54 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.11
+
+commit bd85a030b59f8e3608cc7241f451ae559b6339be
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon May 13 23:33:41 2019 +0000
+
+    updated v1.28.1
+
+commit b2765afb868c40982c068be1c902be8d89244ff4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 8 14:58:43 2019 -0500
+
+    Add jrbourbeau to maintainers
+
+commit bcb8311224d29b4c998e7bbd1a6f7a9339fdb5a2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed May 8 19:31:52 2019 +0000
+
+    updated v1.28.0
+
+commit 6d299c4bdd318814752569dea1ccc9cc94986bad
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Apr 29 15:32:11 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.04.25
+
+commit 8b8bf40216be82dbf3c2f4ca0902cbadaeea43dc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Apr 29 15:31:55 2019 +0000
+
+    updated v1.27.1
+
+commit 2a345fe3965fcb196ad82fefee6b3c694e244d1f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Apr 12 22:30:55 2019 +0000
+
+    updated v1.27.0
+
+commit 4022d77fe08bab0a25454c4caf2876158a37df0e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 29 21:31:25 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit aa7449bd8f8d40adf4b68efd6bea041eedf808f2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 29 21:31:12 2019 +0000
+
+    updated v1.26.1
+
+commit 6c7e2dae00526895072eb05c7c79cd53a3b89d8f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Feb 25 12:39:16 2019 -0800
+
+    bump tornado version to 5 (#77)
+
+commit f37d719f07444d55eb9d86e00f04eae41f40f1c6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 16:27:57 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit e29f0fdd65d2420948a062c8723dbbb52a49a398
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 16:27:46 2019 +0000
+
+    updated v1.26.0
+
+commit ba059cef3e1af383df0b28a77e6d679ebca3a909
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Feb 14 15:58:50 2019 -0500
+
+    Add @ogrisel, @tomaugspurger  [ci skip]
+
+commit a6bfbaf864dfe7ad930fc0d5a5b7e971b5549a0a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 21:15:11 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 4079ebd4179d7fc2aa4df329fdb1d3b3aaf2f98e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 21:14:59 2019 +0000
+
+    updated v1.25.3
+
+commit 8c67d2ea7122551df0e2e816ff8669b4cc778eef
+Merge: 1ca4181 97b0821
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Fri Jan 4 23:31:05 2019 -0200
+
+    Merge pull request #73 from regro-cf-autotick-bot/1.25.2
+    
+    distributed v1.25.2
+
+commit 97b08215fd1a60f5f3edcfddd63e0c29e463ccc4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 4 22:19:23 2019 +0000
+
+    updated v1.25.2
+
+commit 1ca41817be1953b6a6528e05188744c1d623ed7d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 15 17:14:41 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.12
+
+commit b619fb70bc9e0f5b48c89b4a7750996e8d64231e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 15 17:14:36 2018 +0000
+
+    updated v1.25.1
+
+commit 69c603a0df76ed0d2b6d57acf894a3fd9ae3b9bc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Nov 28 16:14:46 2018 +0000
+
+    updated v1.25.0
+
+commit 40e47117b445179b1a3c903512d949868d9abec2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 15 13:15:44 2018 +0000
+
+    updated v1.24.2
+
+commit 4edccf66f808b4794d9c62791f6a3b2b509a6957
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Nov 9 19:31:27 2018 -0500
+
+    Update version constraints for 1.24.1
+
+commit 6c8680e81831cf9c7a2fc6c96e8114700d9cc54f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Nov 9 19:31:11 2018 -0500
+
+    Add `sortedcontainers` version constraints
+
+commit e6eea183ed436b200d3f39f4d525d0e99bbbc022
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 9 19:14:54 2018 +0000
+
+    updated v1.24.1
+
+commit 7791a14e34691e6636844e2a94c51707c3f3b873
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 26 20:15:53 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 312cf6019f5d27b129034f0afbd5bb410b49ed91
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 26 20:15:48 2018 +0000
+
+    updated v1.24.0
+
+commit 1edda9c1d050d416921a2d070165ff7451185c5c
+Merge: dfebe4e d2f481f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 8 11:24:44 2018 -0300
+
+    Merge pull request #67 from marcelotrevisani/migration-rebuild
+    
+    Migration rebuild
+
+commit d2f481fb81f62088fe3be75835e181ff78cce29b
+Merge: 67f1311 dfebe4e
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Mon Oct 8 09:21:40 2018 +0200
+
+    Merge branch 'master' into migration-rebuild
+
+commit 67f13118c88a1f23b518284c0d123a4e55c8cb81
+Author: Marcelo Duarte Trevisani <marceloduartetrevisani@gmail.com>
+Date:   Mon Oct 8 09:20:33 2018 +0200
+
+    Migration
+
+commit dfebe4e6a3c91cb4b311ad1a51cf963f6ad8e703
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 5 15:10:43 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.03
+
+commit 9d07a676a8d083c97e257ebab18ab3aaee4d1e30
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 5 15:10:30 2018 +0000
+
+    updated v1.23.3
+
+commit 58807c609d2eb4d298b30f8220950b5acd87a833
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 4 13:19:15 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 968abc3194b3e75b19101c74ab312ea35636a257
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 4 13:19:08 2018 +0000
+
+    bump build number
+
+commit 93f6e75ba71e4d92b9e5f0e3cb5dc0d7320b7618
+Merge: b746317 028f9b7
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Oct 2 07:41:00 2018 -0300
+
+    Merge pull request #64 from ocefpaf/py37
+    
+    Py37
+
+commit 028f9b7dbcc3170448ae5956e4af6ef8dae3e0c1
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 1 17:13:51 2018 -0300
+
+    use circleci for osx
+
+commit 80eb23f3a71a468557ac27dac669e3a625366ad3
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 1 13:13:59 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.27
+
+commit 98a9c538e1d945e2edc5ce9b526b75cfd84f2b53
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 1 13:13:52 2018 -0300
+
+    py37
+
+commit 5094f0dc8f73df999dec6031db5ccdaaffcdf6e2
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 1 13:13:48 2018 -0300
+
+    bump
+
+commit b7463176d45ea3f4bc92c92cae31f68240b5b9a1
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 07:11:42 2017 +0000
+
+    Update about section
+
+commit 54cff3998d0fe0ee4ece78f03b3aca82922657ce
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Jul 18 19:42:48 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 1948da8456bda868bcc469e9c4c0837c0496b723
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Sep 17 14:13:59 2018 +0000
+
+    updated v1.23.2
+
+commit ca9208c9f0a796e28d7281afad1c35de361d312e
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Sep 6 08:57:45 2018 -0400
+
+    bump version to 1.23.1
+
+commit a7805b6d29159f61484a4bc0bc47a0a672219e88
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 30 17:09:17 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.28
+
+commit 6e69442367a37c0ecbcc5500da57efb37aadd9c7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 30 17:09:11 2018 +0000
+
+    updated v1.23.0
+
+commit 3b8ad4db63144b7189c398a8cb0f138f8c37d899
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Aug 4 15:53:34 2018 -0400
+
+    bump version to 1.22.1
+
+commit 04f679241163f5a62b32aaa9485cb68ceea0a55c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:12:11 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit e636fedef79aff36b44e5a596e00d593aaadb631
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jun 15 08:36:07 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 84d7af9c1b14d787a6e541577d2275115e2a3716
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jun 15 08:35:30 2018 -0400
+
+    bump version to 1.22.0
+
+commit 5257bc1b7f3add3192b8e8e9f857a4ac79e3dd97
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu May 3 17:54:41 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.28
+
+commit ea5f112d8ee4652cbc8ac457409c3755f0f85326
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu May 3 17:50:59 2018 -0400
+
+    bump version to 1.21.8
+
+commit 46d4e97ea2b66f7fd3659fc7b0751ab3cf3e9780
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 2 15:39:05 2018 -0400
+
+    bump version to 1.21.7 (#51)
+
+commit 4685266f498db3ffc44782080ded4ba80b5af7d8
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Apr 6 17:37:17 2018 -0400
+
+    bump version to 1.21.6 (#50)
+
+commit 9dc11af4f91325f04c16bc7cf671c0ceb66ee089
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Mar 31 11:06:21 2018 -0400
+
+    bump version to 1.21.5 (#49)
+
+commit e2ae20bc1e5bd2f3442bf3333ed1b1f54ebbcfb1
+Merge: c826cf2 6c5e8e5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Mar 21 10:56:51 2018 -0400
+
+    Merge pull request #48 from mrocklin/v1.21.4
+    
+    bump version to 1.21.4
+
+commit 6c5e8e55082075b46fe542453c74fc6531366f88
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Mar 21 10:12:32 2018 -0400
+
+    bump version to 1.21.4
+
+commit c826cf20fcb2847763a4bc871d21867723633eae
+Merge: 8ae82d3 7f682c3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 8 16:56:01 2018 -0500
+
+    Merge pull request #46 from mrocklin/v1.21.3
+    
+    bump version to 1.21.3
+
+commit 7f682c3e561f8d5a0ec75fc79d405d4231b4c715
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Mar 8 16:10:58 2018 -0500
+
+    add jakirkham to maintainers
+
+commit 731f8acc7e2a9e2b71a9496d2e583fa9d74e724e
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Mar 8 16:03:50 2018 -0500
+
+    add singledispatch for Py2k
+
+commit 336f71b911c3ed8b4e04927bc885c91853dcd023
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Mar 8 15:56:40 2018 -0500
+
+    bump version to 1.21.3
+
+commit 8ae82d3a64978b8ed9e39f1be3761549c9d25812
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 8 16:07:22 2018 -0500
+
+    Require cytoolz (#45)
+    
+    * Require cytoolz
+    
+    While cytoolz is an optional dependency of distributed and can be subbed
+    in for toolz, it is nice to include as it can provide some speedups over
+    toolz. As these are conda packages, it is pretty easy to pull in this
+    package as well.
+    
+    * Bump build number to 1
+    
+    As we now include cytoolz as a dependency, go ahead and bump the build
+    number to produce a new package with the cytoolz dependency.
+
+commit 755e6443a879c6f8ea43944d83359cfad6d6fad4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Mar 5 18:31:37 2018 -0500
+
+    bump version to 1.21.2
+
+commit 63b010237921d8469a68fe3d8075ae957f412524
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Feb 22 16:34:46 2018 -0500
+
+    Use pip
+    
+    https://conda-forge.org/docs/meta.html#use-pip
+
+commit d80d91a63cdfb0e443a47df25a555a48700782f1
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Feb 22 16:22:55 2018 -0500
+
+    bump version to 1.21.1
+
+commit 5650d1ffcfe015c27d4c0669904f069d24437cbf
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Feb 10 00:04:30 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 4fa53331317f20c70f320e506b5e5a0de52d242a
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Feb 9 15:17:32 2018 -0500
+
+    bump version to 1.21.0
+    
+    Also remove koverholt from maintainers
+
+commit 49eec252ca5081e373c221d8b156eb9815c209b2
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Dec 7 16:52:10 2017 -0500
+
+    bump version to 1.20.2
+
+commit 42dc6930aaf2cb4d79466b95ed067e3532c87592
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Nov 26 11:29:05 2017 -0500
+
+    bump version to 1.20.1
+
+commit f505b3fa78db57d35109a448ed793970e95c1014
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 17 17:21:15 2017 -0500
+
+    add pyyaml as a dependency
+    
+    Fixes #38
+
+commit 9de3d58b34b7c3ea00e442364ce03d448e4a908b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 17 16:16:23 2017 -0500
+
+    bump version to 1.20.0
+
+commit 58b5d2bb9e841577333a4179bb126e6592ba8de6
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Oct 16 18:17:26 2017 -0400
+
+    bump version to 1.19.3
+
+commit b173fa37eae04dd78036143775bb1693b330c51d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Oct 16 18:17:24 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 7157a1d3969618871620eda0e4e88dda9e3bf184
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Oct 7 09:24:41 2017 -0400
+
+    bump version to 1.19.2 (#35)
+
+commit 26da22672f6e868382a10cf1e633682eaf3e7b16
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Sep 25 09:48:25 2017 -0400
+
+    bump version to 1.19.1 (#34)
+
+commit 123486988e9a6ccb25a3c20b0e7a6b5139ee469b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Sep 24 12:54:42 2017 -0400
+
+    bump version to 1.19.0 (#33)
+
+commit 510d198a66c8c6b50c725a51ef25dd35ade73c48
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Sep 2 10:10:53 2017 -0400
+
+    bump version to 1.18.3 (#32)
+
+commit 3000aa3cc4e966ac90e8a0dc8d4ef8e3cf23bd16
+Merge: 77df4d6 1dca10c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Aug 28 20:42:27 2017 -0400
+
+    Merge pull request #30 from mrocklin/v1.18.1
+    
+    bump version to 1.18.1
+
+commit 1dca10c97d915ba2fe75d24073cd51b0a3e51dc8
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Aug 28 11:46:21 2017 -0400
+
+    Add concurrent.futures as dependency in Python 2
+
+commit bd22a1c284c24547a0b092b985f834fa3428e41d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Aug 28 11:34:27 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.3
+
+commit 4b72effd56a660da8eea62ab21e16b50e6f857d2
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Aug 28 09:31:37 2017 -0400
+
+    bump version to 1.18.1
+    
+    This we now depend on dask-core rather than dask
+
+commit 77df4d6a030f46d21d7dbde259e8746b4a024819
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 14:27:12 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d5ba626cf6a2c22c3c8536d68d9803fa8bef8ec4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Jul 8 19:43:52 2017 -0400
+
+    bump version to 1.18.0 (#29)
+
+commit 84c74491cb12551c6cefa69b4668475d5efdcb3f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Jun 14 22:14:23 2017 -0400
+
+    bump version to 1.17.1 (#28)
+    
+    Also remove some optional dependencies
+
+commit 3861109ae9cbe8b13ccdbba0b088b00b532b498e
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Jun 11 19:13:33 2017 -0400
+
+    bump version to 1.17.0
+
+commit c8b86de4e42047fb8303f5ffe23691aa988d7050
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri May 5 09:04:16 2017 -0400
+
+    bump version to 1.16.3
+
+commit ee359206a2b25a2057d5aa082de84298e542a40e
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 3 18:18:29 2017 -0400
+
+    add license file to meta.yaml
+
+commit e2105fdb5ad74bea398a9d0289eea8d2c40c62ab
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 3 15:43:07 2017 -0400
+
+    bump version to 1.16.2
+
+commit e5c75f9cef36d4a363fb238f8fa812b167ee6e09
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 3 15:41:38 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.0
+
+commit 647978c392014d1a52c30ce3f24bdf745da6b12d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Mar 23 07:30:39 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.2.1
+
+commit b96c9c5880afb4494b6cd98b06f54a777db9b73d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Mar 22 11:22:12 2017 -0400
+
+    bump version to 1.16.1
+    
+    Also list jcrist and martindurant as maintainers
+
+commit e9213f4dbeb0d941849696757517b412fc337fd6
+Merge: 1baf80f b39eb50
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Feb 25 08:36:36 2017 -0500
+
+    Merge pull request #22 from mrocklin/v1.16.0
+    
+    V1.16.0
+
+commit b39eb50c8d8db496f275ed5ce581e26818630cd1
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Feb 24 09:56:17 2017 -0500
+
+    bump to version 1.16.0
+
+commit 1a0e033af57ad608af340933ecc66ce21ab8e65f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Feb 24 09:55:41 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.1.0
+
+commit 1baf80f616bf750ea3e80159ecd875f7dee00aef
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jan 27 12:32:58 2017 -0500
+
+    bump version to 1.15.2
+
+commit a24b3e15a36dd6250d40a9dc0856e4df4685754a
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jan 27 12:32:21 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 4d2c1cd43180d706a68f824467ef3e66c5752cc6
+Merge: e1aa455 f357eba
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Jan 12 08:04:22 2017 -0500
+
+    Merge pull request #20 from mrocklin/v1.15.1
+    
+    bump version to 1.15.1
+
+commit f357ebaeb0f1b35767a5369fed8047514a5e8642
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Jan 11 18:29:01 2017 -0500
+
+    bump version to 1.15.1
+
+commit e1aa45528a0a46359e47ab711a238d80ebcd3784
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 13:38:06 2017 -0500
+
+    replace msgpack-python dependency with pandas
+
+commit b297f083a2a3f99b31b1af0cb488eaaae6c6f7a1
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 13:23:52 2017 -0500
+
+    add sortedcontainers to runtime requirements
+
+commit 59c3670b365f0fcb54f9ec53f020c81790d012be
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 11:44:54 2017 -0500
+
+    update requirements
+
+commit 7467bbdcc408854f279ab992a5865772e65a07ab
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 11:43:02 2017 -0500
+
+    bump version to 1.15.0
+
+commit d263d5d217fe8f1a6ef29bcb2318ec1ef819212b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 11:42:30 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 3e92ae561d6e940d843b37b6c60bab1202f73e4f
+Merge: 3712ae9 2643939
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Nov 13 12:27:17 2016 -0500
+
+    Merge pull request #17 from mrocklin/version-1.14.2
+    
+    Bump version to 1.14.3
+
+commit 2643939a069bded5e78af5005cdd1c72d57b0367
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Nov 13 11:24:04 2016 -0500
+
+    bump version to 1.14.3
+
+commit 88456da8286311f9f4b20e2f1a4591118812389b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 11 11:05:51 2016 -0500
+
+    bump version to 1.14.2
+
+commit 3712ae9d08c0c84b45e4bc6f9d97615a02cb3428
+Merge: c48a9fb d7bff88
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Nov 5 09:53:57 2016 -0400
+
+    Merge pull request #16 from mrocklin/version-1.4.0
+    
+    Version 1.14.1
+
+commit d7bff88af9a62292ee85411d477536876c2788e2
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 4 19:39:15 2016 -0400
+
+    bump to version 1.14.1
+
+commit 7280fdb2748400d43de5b7225868b30a504bdff4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 4 12:07:57 2016 -0400
+
+    bump version to 1.14.0
+
+commit 2423a6d8a1dcf39cadc0808428e8a883a6f76c64
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 4 12:07:18 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.4.6
+
+commit c48a9fb9fa1965cd6bcc0284fa37c52ad8320677
+Merge: 38b1ce0 5ba9f2b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Oct 17 21:54:53 2016 -0400
+
+    Merge pull request #15 from mrocklin/1.13.3
+    
+    bump to 1.13.3
+
+commit 5ba9f2b6fee352af1ecb62846a0630ccbf883f9c
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Oct 17 10:50:29 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+commit 18a7ed4e3e35cfbe1e6f1a5afefb297f021217dc
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Oct 14 17:34:17 2016 -0400
+
+    bump to 1.13.3
+
+commit 38b1ce0af522533c4c73f2e2dae544a6e1035186
+Merge: b1b9d3f 7aeac32
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Oct 6 22:14:50 2016 -0400
+
+    Merge pull request #14 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 7aeac32db27247f4f233e03b4384ce3497433390
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Oct 6 12:42:06 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit b1b9d3f2a67a08df619424ea1670d03230629a94
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Sep 13 08:32:27 2016 -0400
+
+    bump version to 1.13.2 (#13)
+
+commit 62b94151c5a3b49fd36e1bf4d9224e774bded16f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Sep 12 08:56:34 2016 -0400
+
+    bump to version 1.13.1 (#12)
+
+commit d87d8dfa9b8a5782721eba5ff4652f0dc9bc333d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Sep 11 08:58:10 2016 -0400
+
+    bump version to 1.13.0 (#11)
+
+commit f57cf968abb44ea06692ddfadec600e8d3d66ee6
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Sep 2 19:48:44 2016 -0400
+
+    bump version to 1.12.2 (#9)
+    
+    * bump version to 1.12.2
+    
+    * rerender feedstock
+    
+    * depend on bokeh 0.12.1
+
+commit 1eb36726d926b6a06207703ad73f0355abc69e2a
+Merge: 7245110 7e93020
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Aug 31 07:16:46 2016 -0400
+
+    Merge pull request #8 from mrocklin/master
+    
+    bump version to 1.12.1
+
+commit 7e9302094c641c105e749bb0f7d036bce384cf39
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Aug 30 13:24:36 2016 -0400
+
+    bump version to 1.12.1
+
+commit 724511081d6b4f687b56f477f1ed4960567248ea
+Merge: cb5b784 2707bb4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Aug 24 10:46:12 2016 -0400
+
+    Merge pull request #7 from mrocklin/master
+    
+    bump version to 1.12.0
+
+commit 2707bb4ade560f5906f4344bfca4833d9167a1a9
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Aug 23 08:22:50 2016 -0400
+
+    bump version to 1.12.0
+
+commit cb5b7844c31d99a69c2e62eae150cedc28a1a82a
+Merge: 32571c4 5f5ff7f
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue Jul 26 23:39:59 2016 -0500
+
+    Merge pull request #6 from koverholt/update-1.11.3
+    
+    Update Distributed to 1.11.3
+
+commit 5f5ff7f5eed6f1c4f89bb86d8d7838c3e7a3c091
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue Jul 26 22:59:36 2016 -0500
+
+    Update Distributed to 1.11.3
+
+commit 32571c4e5297e2729fcaca061a1163f2f5d18a9a
+Merge: 894a66a b51f7fc
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Jul 12 06:34:31 2016 -0500
+
+    Merge pull request #5 from mrocklin/bump-1.11.1
+    
+    bump version to 1.11.1
+
+commit b51f7fc9810c594cc28721f7a0c38faae041fd18
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jul 11 17:35:20 2016 -0500
+
+    bump version to 1.11.2
+
+commit 894a66a7aaa4f891ab8b0855e6ef76e84ba67c9d
+Merge: 1b876cf e518242
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue Jun 14 00:13:22 2016 +0000
+
+    Merge pull request #4 from koverholt/1.11.0-release
+    
+    Bump to version 1.11.0
+
+commit e518242ffcc40fd4012546d18313172afca69075
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Mon Jun 13 12:04:04 2016 -0500
+
+    Bump to version 1.11.0
+
+commit 1b876cfd8b2e0cdb28917617f63cfc67d64d88e3
+Merge: ec5ebd3 8e3f323
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Wed May 18 22:19:41 2016 -0500
+
+    Merge pull request #3 from koverholt/update-1.10.2
+    
+    Update to 1.10.2, other cleanup
+
+commit 8e3f323fb571bc8a15055d129686a5c8f16369b1
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Wed May 18 21:49:19 2016 -0500
+
+    Update to 1.10.2, other cleanup
+
+commit ec5ebd3d6c0fb305aabf2b5933d2e0e18b054d59
+Merge: d555e27 94680c0
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue May 17 22:17:26 2016 -0500
+
+    Merge pull request #1 from koverholt/update-recipe
+    
+    Add setuptools to build dependencies
+
+commit 94680c0bdea96475dfeeacdd57862503319d429e
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue May 17 15:32:05 2016 -0500
+
+    Add setuptools to build dependencies
+
+commit d555e278e70ef4c70eaa6db044c932ca5be5999c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon May 16 21:01:46 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e2decbec1fd8a6efd29ffb799cd5fb560b61c938
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon May 16 21:00:40 2016 +0000
+
+    Initial commit of the distributed feedstock.

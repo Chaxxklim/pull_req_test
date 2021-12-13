@@ -1,0 +1,70 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/combined_recipe, last modified Wed Jan 20 17:16:57 2021
+# ------------------------------------------------
+
+package:
+  name: conda-pack
+  version: 0.6.0
+source:
+  sha256: 526c7ace6d4fb6cc662050575fc0ffd1991bd8c96ba1141ef0ecc0e76ea107a6
+  url: https://github.com/conda/conda-pack/archive/0.6.0.tar.gz
+build:
+  entry_points:
+    - conda-pack = conda_pack.cli:main
+  noarch: python
+  number: '0'
+  script: /tmp/build/80754af9/conda-pack_1611163042455/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+    -m pip install . --no-deps -vv
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - ca-certificates 2021.1.19 h06a4308_0
+    - certifi 2020.12.5 py39h06a4308_0
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libedit 3.1.20191231 h14c3975_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1i h27cfd23_0
+    - pip 20.3.3 py39h06a4308_0
+    - python 3.9.1 hdb3f193_2
+    - readline 8.0 h7b6447c_0
+    - setuptools 51.3.3 py39h06a4308_4
+    - sqlite 3.33.0 h62c20be_0
+    - tk 8.6.10 hbc83047_0
+    - tzdata 2020f h52ac0ba_0
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - python
+    - setuptools
+test:
+  commands:
+    - conda-pack --help
+  imports:
+    - conda_pack
+about:
+  description: '``conda-pack`` is a command line tool for creating relocatable conda
+
+    environments. This is useful for deploying code in a consistent environment,
+
+    potentially in a location where python/conda isn''t already installed.
+
+    '
+  dev_url: https://github.com/conda/conda-pack
+  doc_url: https://conda.github.io/conda-pack/
+  home: https://conda.github.io/conda-pack/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: Package conda environments for redistribution
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jcrist
+    - mcg1969

@@ -1,0 +1,89 @@
+{% set version = "4.3.1" %}
+
+package:
+  name: astropy
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/a/astropy/astropy-{{ version }}.tar.gz
+  sha256: 2d3951223b4eb7f368fcad8c8340d27374c5d8e3b635a636275acdb38f35cd51
+
+
+build:
+  detect_binary_files_with_prefix: false
+  entry_points:
+    - fits2bitmap = astropy.visualization.scripts.fits2bitmap:main
+    - fitscheck = astropy.io.fits.scripts.fitscheck:main
+    - fitsdiff = astropy.io.fits.scripts.fitsdiff:main
+    - fitsheader = astropy.io.fits.scripts.fitsheader:main
+    - fitsinfo = astropy.io.fits.scripts.fitsinfo:main
+    - samp_hub = astropy.samp.hub_script:hub_script
+    - showtable = astropy.table.scripts.showtable:main
+    - volint = astropy.io.votable.volint:main
+    - wcslint = astropy.wcs.wcslint:main
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
+  skip: true  # [py<37]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+  host:
+    - python 
+    - pip
+    - setuptools
+    - jinja2 ==2.10.3
+    - cython ==0.29.22
+    - setuptools_scm
+    - wheel
+    - extension-helpers
+    - numpy
+    - scipy >=1.2
+    - pyyaml >=3.13
+    - matplotlib >=3.0,!=3.4.0
+  run:
+    - python
+    - pyerfa >=1.7.3
+    - {{ pin_compatible("numpy") }}
+    - scipy >=1.2
+    - pyyaml >=3.13
+    - matplotlib >=3.0,!=3.4.0
+    - importlib-metadata  # [py==37]
+
+test:
+  requires:
+    - pytest-astropy >=0.8
+    - setuptools
+    - pip
+  commands:
+    - pip check
+    - fits2bitmap --help
+    - fitscheck --help
+    - fitsdiff --help
+    - fitsheader --help
+    - fitsinfo --help
+    - samp_hub --help
+    - volint --help
+    - wcslint --help
+    - showtable --help
+  imports:
+    - astropy
+
+about:
+  home: http://www.astropy.org/
+  license: BSD-3-Clause
+  license_file: LICENSE.rst
+  license_family: BSD
+  summary: Community-developed Python Library for Astronomy
+  description: |
+    The Astropy Project is a community effort to develop a single package for
+    Astronomy in Python. It contains core functionality and common tools
+    needed for performing astronomy and astrophysics research with Python.
+  doc_url: http://docs.astropy.org/en/stable/
+  dev_url: https://github.com/astropy/astropy
+
+extra:
+  recipe-maintainers:
+    - astrofrog-conda-forge
+    - mwcraig
+    - bsipocz

@@ -1,0 +1,76 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# C:\ci\containers\00002ffinfo\tmp\build\80754af9\combined_recipe, last modified Wed Jun 23 13:46:03 2021
+# ------------------------------------------------
+
+package:
+  name: anaconda-client
+  version: 1.8.0
+source:
+  fn: anaconda-client-1.8.0.tar.gz
+  sha256: be97ef87be4e9076db91c0aaee4a4dc30e2527c8d87c63c8a0c12cd6fd269d95
+  url: https://github.com/Anaconda-Platform/anaconda-client/archive/1.8.0.tar.gz
+build:
+  entry_points:
+    - anaconda = binstar_client.scripts.cli:main
+    - binstar = binstar_client.scripts.cli:main
+    - conda-server = binstar_client.scripts.cli:main
+  number: '0'
+  script: python -m pip install --no-deps --ignore-installed .
+  string: py38haa95532_0
+requirements:
+  host:
+    - ca-certificates 2021.5.25 haa95532_1
+    - certifi 2021.5.30 py38haa95532_0
+    - openssl 1.1.1k h2bbff1b_0
+    - pip 21.1.2 py38haa95532_0
+    - python 3.8.10 hdbf39b2_7
+    - setuptools 52.0.0 py38haa95532_0
+    - sqlite 3.35.4 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - wincertstore 0.2 py38_0
+  run:
+    - clyent >=1.2.0
+    - nbformat >=4.4.0
+    - python >=3.8,<3.9.0a0
+    - python-dateutil >=2.6.1
+    - pytz
+    - pyyaml >=3.12
+    - requests >=2.9.1
+    - setuptools
+    - six
+test:
+  commands:
+    - pip check
+    - anaconda --help
+    - binstar --help
+    - conda-server --help
+  imports:
+    - binstar_client
+    - binstar_client.commands
+    - binstar_client.inspect_package
+    - binstar_client.inspect_package.tests
+    - binstar_client.mixins
+    - binstar_client.scripts
+    - binstar_client.tests
+    - binstar_client.utils
+    - binstar_client.utils.notebook
+    - binstar_client.utils.notebook.tests
+  requires:
+    - pip
+about:
+  dev_url: https://github.com/Anaconda-Platform/anaconda-client
+  doc_url: https://docs.anaconda.com/anaconda-cloud/user-guide/getting-started/
+  home: https://github.com/Anaconda-Platform/anaconda-client
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE.md
+  summary: Anaconda Cloud command line client library
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - goanpeca
+    - jakirkham

@@ -1,0 +1,32 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "anaconda-client",
+    "conda-pack",
+    "jinja2",
+    "python >=2.7",
+    "requests",
+    "ruamel_yaml",
+    "tornado >=4.2",
+    "tqdm"
+  ],
+  "features": "",
+  "fn": "anaconda-project-0.10.1-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "fda519553fd8eb7eec06b867c6b61847",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "5f414198ef9f63ca61bb2ed61cd1975e",
+  "name": "anaconda-project",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "251c77965d4514e337b163c4a1920865dedc7723d2a5f30c642fd395e5d20152",
+  "size": 223567,
+  "subdir": "noarch",
+  "timestamp": 1626085696950,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/anaconda-project-0.10.1-pyhd3eb1b0_0.conda",
+  "version": "0.10.1"
+}

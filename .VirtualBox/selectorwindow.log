@@ -1,0 +1,25 @@
+00:00:00.799280 VirtualBox GUI VM Selector Window 6.1.26 r145957 win.amd64 (Jul 28 2021 17:15:09) release log
+00:00:00.799283 Log opened 2021-10-18T03:07:11.135114700Z
+00:00:00.799284 Build Type: release
+00:00:00.799287 OS Product: Windows 10
+00:00:00.799288 OS Release: 10.0.19041
+00:00:00.799289 OS Service Pack: 
+00:00:00.815586 DMI Product Name: HP Pavilion Laptop 15-cs1xxx
+00:00:00.822461 DMI Product Version: Type1ProductConfigId
+00:00:00.822490 Firmware type: UEFI
+00:00:00.823067 Secure Boot: Disabled
+00:00:00.823087 Host RAM: 8079MB (7.8GB) total, 1280MB available
+00:00:00.823093 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.823093 Process ID: 18532
+00:00:00.823094 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.823249 Qt version: 5.6.2
+00:00:01.022694 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.022853 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.056886 refreshCertificates/#3: Found 1/85 SSL certs we/you trust (previously 0/0).
+00:28:47.284033 GUI: UIMediumEnumerator: Medium with key={{78c86131-8a9b-404d-a89f-ca1c116a32fa}} created
+00:28:47.446811 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:15.688899 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:56.770079 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:56.911058 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:57.433120 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:57.475926 GUI: UIMediumEnumerator: Medium-enumeration finished!

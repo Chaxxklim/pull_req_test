@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_1002",
+  "build_number": 1002,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "comtypes-1.1.10-py38haa95532_1002.conda",
+  "legacy_bz2_md5": "3760589c370e8caa5171df0f061bef1f",
+  "license": "MIT",
+  "md5": "fcea5b341061e5b8e2122f6901e09d3d",
+  "name": "comtypes",
+  "platform": "win32",
+  "sha256": "e31cf56172812b7e8ecb450ff34e604209f8c1fa7debfacb60aae22c1475a742",
+  "size": 242131,
+  "subdir": "win-64",
+  "timestamp": 1621828619009,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/comtypes-1.1.10-py38haa95532_1002.conda",
+  "version": "1.1.10"
+}
